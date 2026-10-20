@@ -55,7 +55,7 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
         run: |
           echo "$KEYSTORE_BASE64" | base64 -d > android/app/flexify-key.jks
-          cat > android/app/keystore.properties <<EOF
+          cat > android/keystore.properties <<EOF
           storeFile=flexify-key.jks
           storePassword=$KEYSTORE_PASSWORD
           keyAlias=$KEY_ALIAS
