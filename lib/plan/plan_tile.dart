@@ -196,9 +196,8 @@ class _PlanTileState extends State<PlanTile> {
           widget.navigatorKey.currentState!.push(
             FlexPageRoute(
               settings: RouteSettings(name: 'start-plan:${widget.plan.id}'),
-              builder: (context) => StartPlanPage(
-                plan: widget.plan,
-                initial: widget.exercises,
+              builder: (context) =>
+                  StartPlanPage(plan: widget.plan, initial: widget.exercises),
               ),
             ),
           );
