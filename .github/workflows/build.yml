@@ -3,32 +3,71 @@ name: Build APK
 on:
   push:
     branches: [ main ]
+  pull_request:
   workflow_dispatch:
 
 jobs:
-  build:
+  quality:
     runs-on: ubuntu-latest
     steps:
-      - name: Récupérer le code
-        uses: actions/checkout@v4
-
-      - name: Installer Flutter
-        uses: subosito/flutter-action@v2
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
+      - name: Formatage
+        run: dart format --set-exit-if-changed .
+      - name: Analyse statique
+        run: flutter analyze
+      - name: Tests
+        run: flutter test
 
-      - name: Installer les dépendances
-        run: flutter pub get
+  build:
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: dart run build_runner build --delete-conflicting-outputs
 
-      - name: Générer le code (drift)
-        run: dart run build_runner build --delete-conflicting-outputs
+      # Signature : nécessaire pour tous les builds (le build.gradle la vérifie)
+      - name: Préparer la clé et keystore.properties
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 -d > android/app/flexify-key.jks
+          cat > android/app/keystore.properties <<EOF
+          storeFile=flexify-key.jks
+          storePassword=$KEYSTORE_PASSWORD
+          keyAlias=$KEY_ALIAS
+          keyPassword=$KEY_PASSWORD
+          EOF
 
-      - name: Compiler l'APK
+      - name: Compiler l'APK debug (branches)
+        if: github.ref != 'refs/heads/main'
+        run: flutter build apk --debug
+
+      - name: Compiler l'APK release (main)
+        if: github.ref == 'refs/heads/main'
         run: flutter build apk --release
 
-      - name: Uploader l'APK
+      - name: Uploader l'APK debug
+        if: github.ref != 'refs/heads/main'
         uses: actions/upload-artifact@v4
         with:
-          name: flexify-apk
+          name: flexify-apk-debug
+          path: build/app/outputs/flutter-apk/app-debug.apk
+
+      - name: Uploader l'APK release
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: flexify-apk-release
           path: build/app/outputs/flutter-apk/app-release.apk
