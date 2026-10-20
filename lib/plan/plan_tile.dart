@@ -198,8 +198,6 @@ class _PlanTileState extends State<PlanTile> {
               settings: RouteSettings(name: 'start-plan:${widget.plan.id}'),
               builder: (context) =>
                   StartPlanPage(plan: widget.plan, initial: widget.exercises),
-              ),
-            ),
           );
         },
         onLongPress: desktop ? null : () => widget.onSelect(widget.plan.id),
