@@ -225,10 +225,7 @@ Future<void> main(List<String> args) async {
     });
     await Future<void>.delayed(const Duration(milliseconds: 200));
     expect(finished, isFalse);
-    expect(
-      await File(p.join(support.path, backupDbName)).exists(),
-      isFalse,
-    );
+    expect(await File(p.join(support.path, backupDbName)).exists(), isFalse);
     process.stdin.writeln('release');
     await process.stdin.flush();
     expect(await process.exitCode, 0);
@@ -421,7 +418,7 @@ Future<void> main(List<String> args) async {
         throwsA(isA<sqlite.SqliteException>()),
       );
       expect(await legacyFile.readAsString(), 'not a SQLite database');
-          expect(await File(p.join(support.path, backupDbName)).exists(), isFalse);
+      expect(await File(p.join(support.path, backupDbName)).exists(), isFalse);
     },
   );
 }
