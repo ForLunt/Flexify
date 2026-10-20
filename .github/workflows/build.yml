@@ -45,7 +45,6 @@ jobs:
           cache: true
       - run: flutter pub get
       - run: dart run build_runner build --delete-conflicting-outputs
-
       - name: Préparer la clé de signature
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
@@ -56,19 +55,21 @@ jobs:
           for v in KEYSTORE_BASE64 KEYSTORE_PASSWORD KEY_PASSWORD KEY_ALIAS; do
             if [ -z "${!v}" ]; then
               echo "::error::Le secret $v est vide ou introuvable"
-              exit 1
+              exit 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
             fi
           done
-          printf '%s' "$KEYSTORE_BASE64" | base64 -d > android/app/flexify-key.jks
+          printf '%s' "$KEYSTORE_BASE64" | tr -d ' \r\n' | base64 -d > android/app/flexify-key.jks
+          test -s android/app/flexify-key.jks || { echo "::error::Le fichier .jks est vide"; exit 1; }
+          echo "Taille du .jks : $(stat -c %s android/app/flexify-key.jks) octets"
+          keytool -list -keystore android/app/flexify-key.jks -storepass "$KEYSTORE_PASSWORD" \
+            | grep -iE "Keystore type|Your keystore contains|fingerprint" \
+            || { echo "::error::Keystore illisible : KEYSTORE_BASE64 incomplet, ou mauvais mot de passe"; exit 1; }
           cat > android/key.properties <<EOF
           storeFile=flexify-key.jks
           storePassword=$KEYSTORE_PASSWORD
           keyAlias=$KEY_ALIAS
           keyPassword=$KEY_PASSWORD
           EOF
-          test -s android/app/flexify-key.jks || { echo "::error::Le fichier .jks est vide"; exit 1; }
-          ls -l android/key.properties android/app/flexify-key.jks
-          sed 's/=.*/=…/' android/key.properties
 
       - name: APK debug
         if: github.ref != 'refs/heads/main'
