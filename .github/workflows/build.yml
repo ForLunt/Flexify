@@ -61,7 +61,15 @@ jobs:
           keyAlias=$KEY_ALIAS
           keyPassword=$KEY_PASSWORD
           EOF
-
+      - name: Diagnostic signature
+        run: |
+          echo "--- fichiers ---"
+          ls -l android/key.properties android/app/flexify-key.jks || true
+          echo "--- noms des propriétés ---"
+          sed 's/=.*/=…/' android/key.properties || true
+          echo "--- le jks est-il lisible ? ---"
+          file android/app/flexify-key.jks || true
+          
       - name: APK debug
         if: github.ref != 'refs/heads/main'
         run: flutter build apk --debug
