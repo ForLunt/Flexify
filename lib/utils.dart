@@ -72,10 +72,11 @@ String formatDisplayPercent(
   int maxDigits = 2,
 }) {
   final locale = _localeName(context);
-  final formatter = _percentFormat.putIfAbsent((
-    locale,
-    maxDigits,
-  ), () => NumberFormat.percentPattern(locale)..maximumFractionDigits = maxDigits);
+  final formatter = _percentFormat.putIfAbsent(
+  (locale, maxDigits),
+  () =>
+    NumberFormat.percentPattern(locale)..maximumFractionDigits = maxDigits,
+  );
   return formatter.format(ratio);
 }
 
