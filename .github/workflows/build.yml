@@ -23,15 +23,8 @@ jobs:
       - run: flutter pub get
 
       # Vérifie le code commité, avant toute génération
-      #- name: Formatage
-      #  run: dart format --output=none --set-exit-if-changed .
-      - name: Formatage (diagnostic)
-        run: |
-          dart --version
-          dart format .
-          git diff --stat
-          git diff | head -150
-          git diff --quiet
+      - name: Formatage
+        run: dart format --output=none --set-exit-if-changed .
           
       - run: dart run build_runner build --delete-conflicting-outputs
 
