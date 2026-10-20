@@ -421,10 +421,7 @@ Future<void> main(List<String> args) async {
         throwsA(isA<sqlite.SqliteException>()),
       );
       expect(await legacyFile.readAsString(), 'not a SQLite database');
-      expect(
-        await File(p.join(support.path, backupDbName)).exists(),
-        isFalse,
-      );
+          expect(await File(p.join(support.path, backupDbName)).exists(), isFalse);
     },
   );
 }
