@@ -73,9 +73,9 @@ String formatDisplayPercent(
 }) {
   final locale = _localeName(context);
   final formatter = _percentFormat.putIfAbsent(
-  (locale, maxDigits),
-  () =>
-    NumberFormat.percentPattern(locale)..maximumFractionDigits = maxDigits,
+    (locale, maxDigits),
+    () =>
+        NumberFormat.percentPattern(locale)..maximumFractionDigits = maxDigits,
   );
   return formatter.format(ratio);
 }
