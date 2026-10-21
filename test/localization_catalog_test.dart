@@ -120,7 +120,7 @@ const _localeSpecificEnglishEquivalentKeys = <String, Set<String>>{
     'flexitrackName',
     'flexitrackServerUrl',
   },
-  'id':{'flexitrackServerUrl','flexitrackName'}
+  'id':{'flexitrackServerUrl','flexitrackName'},
   'ja': {'actionOk'},
   'ko': {},
   'nl': {
