@@ -87,22 +87,20 @@ class Argos:
         return ok
 
     def translate(self, text, code):
-        placeholders = []
-
-        def protect(m):
-            placeholders.append(m.group(0))
-            return f"XPH{len(placeholders) - 1}X"
-
-        protected = SIMPLE.sub(protect, text)
-        out = self.translate_module.translate(protected, "en", code).strip()
-        for i, original in enumerate(placeholders):
-            out = re.sub(f"XPH{i}X", lambda _m, o=original: o, out, flags=re.I)
+        # Découpe autour des {placeholders} et ne traduit que le texte
+        parts = SIMPLE.split(text)  # indices impairs = noms de placeholders
+        out = []
+        for i, part in enumerate(parts):
+            if i % 2 == 1:
+                out.append("{" + part + "}")
+            elif part:
+                out.append(self.translate_module.translate(part, "en", code).strip())
+        out = "".join(out)
         if not out:
             raise ValueError("traduction vide")
         if set(PLACEHOLDER.findall(out)) != set(PLACEHOLDER.findall(text)):
             raise ValueError("paramètres {…} altérés par la traduction")
         return out
-
 
 def main():
     check_only = "--check" in sys.argv
