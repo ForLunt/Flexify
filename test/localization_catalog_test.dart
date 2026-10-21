@@ -84,6 +84,7 @@ const _localeSpecificEnglishEquivalentKeys = <String, Set<String>>{
     'tabs',
     'themeSystem',
     'flexitrackName',
+    'flexitrackServerUrl',
   },
   'es': {'stoneUnit', 'cardio', 'minutesShort', 'errorLabel'},
   'fr': {
