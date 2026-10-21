@@ -1,9 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:flexify/settings/flexitrack/pairing_service.dart';
+import 'package:flutter/material.dart';
 
 /// La PAGE Flexitrack : aujourd'hui l'appairage, demain l'état de synchro,
 /// les séances programmées, le délai d'envoi, etc.
-/// Pattern copié sur DataSettings : un Scaffold + une liste de réglages.
 class FlexitrackSettings extends StatefulWidget {
   const FlexitrackSettings({super.key});
 
@@ -12,8 +11,90 @@ class FlexitrackSettings extends StatefulWidget {
 }
 
 class _FlexitrackSettingsState extends State<FlexitrackSettings> {
-  // ... tes 3 TextEditingController, _busy, _doPairing, _showMessage
-  //     → TOUT ce que je t'ai donné reste identique ...
+  final _url = TextEditingController();
+  final _name = TextEditingController();
+  final _key = TextEditingController();
+  bool _busy = false;
+
+  @override
+  void dispose() {
+    _url.dispose();
+    _name.dispose();
+    _key.dispose();
+    super.dispose();
+  }
+
+  void _showMessage(String text) {
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(text)));
+  }
+
+  Future<void> _doPairing() async {
+    if (_busy) return;
+
+    final url = _url.text.trim();
+    if (!url.startsWith('https://')) {
+      _showMessage("L'URL du serveur doit commencer par https://");
+      return;
+    }
+
+    setState(() => _busy = true);
+    try {
+      await PairingService().pair(
+        serverUrl: url,
+        name: _name.text.trim(),
+        pairingKey: _key.text.trim(),
+      );
+      _showMessage('Appairage réussi');
+    } catch (e) {
+      _showMessage("Échec de l'appairage : $e");
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  Future<void> _showPairingDialog() async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Appairage Flexitrack'),
+        content: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextField(
+                controller: _url,
+                keyboardType: TextInputType.url,
+                decoration: const InputDecoration(labelText: 'URL du serveur'),
+              ),
+              TextField(
+                controller: _name,
+                decoration: const InputDecoration(labelText: 'Nom'),
+              ),
+              TextField(
+                controller: _key,
+                decoration: const InputDecoration(
+                  labelText: "Clé d'appairage",
+                ),
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('Annuler'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Appairer'),
+          ),
+        ],
+      ),
+    );
+
+    if (confirmed == true) await _doPairing();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,23 +103,21 @@ class _FlexitrackSettingsState extends State<FlexitrackSettings> {
       appBar: AppBar(title: const Text('Flexitrack')),
       body: ListView(
         children: [
-          // Ta tuile d'appairage — le TextButton.icon devient ListTile,
-          // comme les autres pages de réglages Flexify.
           ListTile(
             leading: const Icon(Icons.link_rounded),
             title: const Text('Appairage avec ton coach'),
             subtitle: const Text('Connecte cette app au serveur Flexitrack'),
+            trailing: _busy
+                ? const SizedBox(
+                    width: 20,
+                    height: 20,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  )
+                : null,
             onTap: _showPairingDialog,
           ),
-          // Demain, ici :
-          // ListTile( title: Text('État de synchronisation'), ... ),      // FT-13
-          // ListTile( title: Text('Séances programmées'), ... ),          // FT-14
-          // SwitchListTile( title: Text('Envoi automatique'), ... ),      // FT-13
         ],
       ),
     );
   }
-
-  // _showPairingDialog : IDENTIQUE à ce que je t'ai donné
-  // (le AlertDialog avec les 3 champs, rien ne change)
 }
