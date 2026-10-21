@@ -2014,16 +2014,4 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "Flexitrack парі",
-  "flexitrackPairingTileTitle": "Похід з тренером",
-  "flexitrackPairingTileSubtitle": "Підключіть цей додаток до сервера Flexitrack",
-  "flexitrackServerUrl": "Статус на сервери",
-  "flexitrackName": "Ім'я",
-  "flexitrackPairingKey": "Pairing ключ",
-  "flexitrackCancel": "Зареєструватися",
-  "flexitrackPair": "Пейзаж",
-  "flexitrackHttpsRequired": "URL-адреса сервера повинна починатися з https://",
-  "flexitrackPairingSuccess": "Успішне плавання",
-  "flexitrackPairingFailed": "Не вдалося:{error}"
 }

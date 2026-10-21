@@ -489,16 +489,4 @@
   "createPlan": "Utwórz plan",
   "createNamedPlan": "Utwórz „{name}”",
   "setNumber": "Seria {number}",
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "Parowanie Flexitrack",
-  "flexitrackPairingTileTitle": "Para z trenerem",
-  "flexitrackPairingTileSubtitle": "Podłącz tę aplikację do serwera Flexitrack",
-  "flexitrackServerUrl": "URL serwera",
-  "flexitrackName": "Nazwa",
-  "flexitrackPairingKey": "Klucz parowania",
-  "flexitrackCancel": "Anuluj",
-  "flexitrackPair": "Para",
-  "flexitrackHttpsRequired": "URL serwera musi zacząć się od https: / /",
-  "flexitrackPairingSuccess": "Parowanie zakończone sukcesem",
-  "flexitrackPairingFailed": "Parowanie nie powiodło się:{error}"
 }

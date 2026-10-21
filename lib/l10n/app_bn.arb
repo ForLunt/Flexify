@@ -2005,16 +2005,4 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "সকল বিচ্ছিন্ন করুন",
-  "flexitrackPairingTileTitle": "তোমার কোচের সাথে জুটি",
-  "flexitrackPairingTileSubtitle": "এই অ্যাপ্লিকেশনটি FMect সার্ভারে সংযুক্ত করুন",
-  "flexitrackServerUrl": "সার্ভারের URL",
-  "flexitrackName": "নাম",
-  "flexitrackPairingKey": "জুটি কি",
-  "flexitrackCancel": "বাতিল",
-  "flexitrackPair": "জুটি",
-  "flexitrackHttpsRequired": "এই সার্ভার ইউ- আর- এল এর সঙ্গে আরম্ভ করা আবশ্যক",
-  "flexitrackPairingSuccess": "জুটি সফল",
-  "flexitrackPairingFailed": "জুটি তৈরি করতে ব্যর্থ:{error}"
 }

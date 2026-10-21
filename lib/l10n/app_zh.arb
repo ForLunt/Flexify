@@ -489,16 +489,4 @@
   "createPlan": "创建计划",
   "createNamedPlan": "创建“{name}”",
   "setNumber": "第 {number} 组",
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "弗莱克赛道配对",
-  "flexitrackPairingTileTitle": "和教练对战",
-  "flexitrackPairingTileSubtitle": "将此应用程序连接到 Flexirack 服务器",
-  "flexitrackServerUrl": "服务器 URL",
-  "flexitrackName": "名称",
-  "flexitrackPairingKey": "对齐密钥",
-  "flexitrackCancel": "取消",
-  "flexitrackPair": "对",
-  "flexitrackHttpsRequired": "服务器 URL 必须从 https:// 开始",
-  "flexitrackPairingSuccess": "配对成功",
-  "flexitrackPairingFailed": "对齐失败 :{error}"
 }

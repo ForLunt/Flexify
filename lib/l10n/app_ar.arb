@@ -2005,16 +2005,4 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "الأزواج",
-  "flexitrackPairingTileTitle": "طير مع مدربك",
-  "flexitrackPairingTileSubtitle": "إربط هذا التطبيق إلى خادم (فلاكستراك)",
-  "flexitrackServerUrl": "Server URL",
-  "flexitrackName": "الاسم",
-  "flexitrackPairingKey": "مفتاح الطلاء",
-  "flexitrackCancel": "إلغاء",
-  "flexitrackPair": "Pair",
-  "flexitrackHttpsRequired": "The server URL must start with https://",
-  "flexitrackPairingSuccess": "النجاح",
-  "flexitrackPairingFailed": "فشل الطير:{error}"
 }

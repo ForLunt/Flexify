@@ -489,16 +489,4 @@
   "createPlan": "Plan erstellen",
   "createNamedPlan": "„{name}“ erstellen",
   "setNumber": "Satz {number}",
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "Flexitrack-Paarung",
-  "flexitrackPairingTileTitle": "Pair mit Ihrem Coach",
-  "flexitrackPairingTileSubtitle": "Verbinden Sie diese App mit dem Flexitrack-Server",
-  "flexitrackServerUrl": "Server URL",
-  "flexitrackName": "Name",
-  "flexitrackPairingKey": "Pairing Key",
-  "flexitrackCancel": "Stornierung",
-  "flexitrackPair": "Paar",
-  "flexitrackHttpsRequired": "Die Server-URL muss mit https://",
-  "flexitrackPairingSuccess": "Pairing erfolgreich",
-  "flexitrackPairingFailed": "Paarung fehlgeschlagen:{error}"
 }

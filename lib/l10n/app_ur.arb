@@ -2005,16 +2005,4 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "فولادی جوہر",
-  "flexitrackPairingTileTitle": "آپ کی ٹرین کے ساتھ پیر",
-  "flexitrackPairingTileSubtitle": "اس app کو Flexic سرور سے بند کریں",
-  "flexitrackServerUrl": "سرور %d",
-  "flexitrackName": "نام",
-  "flexitrackPairingKey": "کُنجی",
-  "flexitrackCancel": "منسوخ",
-  "flexitrackPair": "پیر",
-  "flexitrackHttpsRequired": "سرور پانس کا آغاز https://s://s.com سے کرنا ہوگا",
-  "flexitrackPairingSuccess": "پیری کامیاب",
-  "flexitrackPairingFailed": "پیرینگ ضلع:{error}"
 }

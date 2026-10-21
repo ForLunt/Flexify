@@ -2005,16 +2005,4 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "FlexiTrack جفتینگ",
-  "flexitrackPairingTileTitle": "پرواز با مربی خود",
-  "flexitrackPairingTileSubtitle": "اتصال این برنامه به سرور FlexiTrack",
-  "flexitrackServerUrl": "سرور URL",
-  "flexitrackName": "نام",
-  "flexitrackPairingKey": "حذف کلید",
-  "flexitrackCancel": "لغو لغو",
-  "flexitrackPair": "Pair",
-  "flexitrackHttpsRequired": "URL سرور باید با https شروع شود",
-  "flexitrackPairingSuccess": "موفقیت",
-  "flexitrackPairingFailed": "شکست:{error}"
 }

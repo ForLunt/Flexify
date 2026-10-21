@@ -489,16 +489,4 @@
   "createPlan": "Schema aanmaken",
   "createNamedPlan": "“{name}” aanmaken",
   "setNumber": "Set {number}",
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "Flexitrack koppeling",
-  "flexitrackPairingTileTitle": "Paar met je coach",
-  "flexitrackPairingTileSubtitle": "Sluit deze app aan op de Flexitrack server",
-  "flexitrackServerUrl": "Server-URL",
-  "flexitrackName": "Naam",
-  "flexitrackPairingKey": "Paarsleutel",
-  "flexitrackCancel": "Annuleren",
-  "flexitrackPair": "Paar",
-  "flexitrackHttpsRequired": "De server-URL moet beginnen met https://",
-  "flexitrackPairingSuccess": "Paar succesvol",
-  "flexitrackPairingFailed": "Paren mislukt:{error}"
 }

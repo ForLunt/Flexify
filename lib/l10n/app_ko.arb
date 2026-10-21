@@ -489,16 +489,4 @@
   "createPlan": "플랜 만들기",
   "createNamedPlan": "“{name}” 만들기",
   "setNumber": "세트 {number}",
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "Flexitrack 페어링",
-  "flexitrackPairingTileTitle": "당신의 코치와 쌍",
-  "flexitrackPairingTileSubtitle": "Flexitrack 서버에 이 앱을 연결",
-  "flexitrackServerUrl": "서버 URL",
-  "flexitrackName": "이름 *",
-  "flexitrackPairingKey": "페어링 키",
-  "flexitrackCancel": "이름 *",
-  "flexitrackPair": "제품 정보",
-  "flexitrackHttpsRequired": "서버 URL은 https://로 시작해야 합니다.",
-  "flexitrackPairingSuccess": "성공의 쌍",
-  "flexitrackPairingFailed": "페어링 실패:{error}"
 }

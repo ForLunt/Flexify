@@ -489,16 +489,4 @@
   "createPlan": "Создать план",
   "createNamedPlan": "Создать «{name}»",
   "setNumber": "Подход {number}",
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "Спаривание Flexitrack",
-  "flexitrackPairingTileTitle": "Взаимодействие с вашим тренером",
-  "flexitrackPairingTileSubtitle": "Подключите это приложение к серверу Flexitrack",
-  "flexitrackServerUrl": "URL сервера",
-  "flexitrackName": "Имя",
-  "flexitrackPairingKey": "Парный ключ",
-  "flexitrackCancel": "отменить",
-  "flexitrackPair": "пар",
-  "flexitrackHttpsRequired": "URL сервера должен начинаться с https:",
-  "flexitrackPairingSuccess": "Спаривание успешно",
-  "flexitrackPairingFailed": "Парирование провалилось:{error}"
 }
