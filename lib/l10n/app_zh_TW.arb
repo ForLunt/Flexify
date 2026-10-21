@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "沒有與“{query}”符合的內容。你可以將其建立為新計畫。",
   "createPlan": "建立計畫",
   "createNamedPlan": "建立“{name}”",
-  "setNumber": "第 {number} 組"
+  "setNumber": "第 {number} 組",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Flexir轨配對",
+  "flexitrackPairingTileTitle": "就跟你的教練一等",
+  "flexitrackPairingTileSubtitle": "將此應用程式連接到 Flexirack 伺服器",
+  "flexitrackServerUrl": "伺服器網址",
+  "flexitrackName": "姓名",
+  "flexitrackPairingKey": "對等金鑰",
+  "flexitrackCancel": "取消",
+  "flexitrackPair": "一等相",
+  "flexitrackHttpsRequired": "伺服器網址必須以 https:// 为起點",
+  "flexitrackPairingSuccess": "相對成功",
+  "flexitrackPairingFailed": "對等失敗 :{error}"
 }

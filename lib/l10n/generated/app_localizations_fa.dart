@@ -1554,4 +1554,43 @@ class AppLocalizationsFa extends AppLocalizations {
   String setNumber(int number) {
     return 'ست $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'FlexiTrack جفتینگ';
+
+  @override
+  String get flexitrackPairingTileTitle => 'پرواز با مربی خود';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'اتصال این برنامه به سرور FlexiTrack';
+
+  @override
+  String get flexitrackServerUrl => 'سرور URL';
+
+  @override
+  String get flexitrackName => 'نام';
+
+  @override
+  String get flexitrackPairingKey => 'حذف کلید';
+
+  @override
+  String get flexitrackCancel => 'لغو لغو';
+
+  @override
+  String get flexitrackPair => 'Pair';
+
+  @override
+  String get flexitrackHttpsRequired => 'URL سرور باید با https شروع شود';
+
+  @override
+  String get flexitrackPairingSuccess => 'موفقیت';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'شکست:$error';
+  }
 }

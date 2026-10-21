@@ -2004,5 +2004,17 @@
         "type": "int"
       }
     }
-  }
+  },
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Flexitrack pairing",
+  "flexitrackPairingTileTitle": "अपने कोच के साथ जोड़ी",
+  "flexitrackPairingTileSubtitle": "इस एप्लिकेशन को फ्लेक्सिट्रैक सर्वर से कनेक्ट करें",
+  "flexitrackServerUrl": "सर्वर यूआरएल",
+  "flexitrackName": "नाम",
+  "flexitrackPairingKey": "जोड़ी कुंजी",
+  "flexitrackCancel": "रद्द करना",
+  "flexitrackPair": "जोड़ी",
+  "flexitrackHttpsRequired": "सर्वर यूआरएल को https://www.trl.",
+  "flexitrackPairingSuccess": "जोड़ी सफल",
+  "flexitrackPairingFailed": "जोड़ी विफल:{error}"
 }

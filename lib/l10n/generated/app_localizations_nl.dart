@@ -1566,4 +1566,44 @@ class AppLocalizationsNl extends AppLocalizations {
   String setNumber(int number) {
     return 'Set $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Flexitrack koppeling';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Paar met je coach';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Sluit deze app aan op de Flexitrack server';
+
+  @override
+  String get flexitrackServerUrl => 'Server-URL';
+
+  @override
+  String get flexitrackName => 'Naam';
+
+  @override
+  String get flexitrackPairingKey => 'Paarsleutel';
+
+  @override
+  String get flexitrackCancel => 'Annuleren';
+
+  @override
+  String get flexitrackPair => 'Paar';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'De server-URL moet beginnen met https://';
+
+  @override
+  String get flexitrackPairingSuccess => 'Paar succesvol';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Paren mislukt:$error';
+  }
 }

@@ -1579,4 +1579,44 @@ class AppLocalizationsPl extends AppLocalizations {
   String setNumber(int number) {
     return 'Seria $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Parowanie Flexitrack';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Para z trenerem';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Podłącz tę aplikację do serwera Flexitrack';
+
+  @override
+  String get flexitrackServerUrl => 'URL serwera';
+
+  @override
+  String get flexitrackName => 'Nazwa';
+
+  @override
+  String get flexitrackPairingKey => 'Klucz parowania';
+
+  @override
+  String get flexitrackCancel => 'Anuluj';
+
+  @override
+  String get flexitrackPair => 'Para';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'URL serwera musi zacząć się od https: / /';
+
+  @override
+  String get flexitrackPairingSuccess => 'Parowanie zakończone sukcesem';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Parowanie nie powiodło się:$error';
+  }
 }

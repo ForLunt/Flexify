@@ -1561,4 +1561,44 @@ class AppLocalizationsVi extends AppLocalizations {
   String setNumber(int number) {
     return 'Hiệp $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Cặp Flexitrack';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Đi chung với huấn luyện viên';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Kết nối ứng dụng này tới máy chủ Flexirack';
+
+  @override
+  String get flexitrackServerUrl => 'URL máy phục vụ';
+
+  @override
+  String get flexitrackName => 'Tên';
+
+  @override
+  String get flexitrackPairingKey => 'Phím Đôi';
+
+  @override
+  String get flexitrackCancel => 'Thôi';
+
+  @override
+  String get flexitrackPair => 'Đôi';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'Địa chỉ URL máy phục vụ phải bắt đầu với https vội';
+
+  @override
+  String get flexitrackPairingSuccess => 'Sự phân chia thành công';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Lỗi phân tách:$error';
+  }
 }

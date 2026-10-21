@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "「{query}」に一致する項目はありません。新しいプランとして作成できます。",
   "createPlan": "プランを作成",
   "createNamedPlan": "「{name}」を作成",
-  "setNumber": "セット {number}"
+  "setNumber": "セット {number}",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Flexitrack ペアリング",
+  "flexitrackPairingTileTitle": "あなたのコーチとペア",
+  "flexitrackPairingTileSubtitle": "このアプリをFlexitrackサーバーに接続する",
+  "flexitrackServerUrl": "サーバ URL",
+  "flexitrackName": "お名前 (必須)",
+  "flexitrackPairingKey": "ペアリングキー",
+  "flexitrackCancel": "キャンセル",
+  "flexitrackPair": "ペア",
+  "flexitrackHttpsRequired": "サーバ URL は https:// で起動する必要があります。",
+  "flexitrackPairingSuccess": "成功したペアリング",
+  "flexitrackPairingFailed": "ペアリングが失敗しました:{error}"
 }

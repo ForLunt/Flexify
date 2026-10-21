@@ -1486,6 +1486,44 @@ class AppLocalizationsZh extends AppLocalizations {
   String setNumber(int number) {
     return '第 $number 组';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => '弗莱克赛道配对';
+
+  @override
+  String get flexitrackPairingTileTitle => '和教练对战';
+
+  @override
+  String get flexitrackPairingTileSubtitle => '将此应用程序连接到 Flexirack 服务器';
+
+  @override
+  String get flexitrackServerUrl => '服务器 URL';
+
+  @override
+  String get flexitrackName => '名称';
+
+  @override
+  String get flexitrackPairingKey => '对齐密钥';
+
+  @override
+  String get flexitrackCancel => '取消';
+
+  @override
+  String get flexitrackPair => '对';
+
+  @override
+  String get flexitrackHttpsRequired => '服务器 URL 必须从 https:// 开始';
+
+  @override
+  String get flexitrackPairingSuccess => '配对成功';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return '对齐失败 :$error';
+  }
 }
 
 /// The translations for Chinese, as used in China (`zh_CN`).
@@ -2970,6 +3008,44 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String setNumber(int number) {
     return '第 $number 组';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => '弗莱克赛道配对';
+
+  @override
+  String get flexitrackPairingTileTitle => '和教练对战';
+
+  @override
+  String get flexitrackPairingTileSubtitle => '将此应用程序连接到 Flexirack 服务器';
+
+  @override
+  String get flexitrackServerUrl => '服务器 URL';
+
+  @override
+  String get flexitrackName => '名称';
+
+  @override
+  String get flexitrackPairingKey => '对齐密钥';
+
+  @override
+  String get flexitrackCancel => '取消';
+
+  @override
+  String get flexitrackPair => '对';
+
+  @override
+  String get flexitrackHttpsRequired => '服务器 URL 必须从 https:// 开始';
+
+  @override
+  String get flexitrackPairingSuccess => '配对成功';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return '对齐失败 :$error';
+  }
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -4453,5 +4529,43 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   @override
   String setNumber(int number) {
     return '第 $number 組';
+  }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Flexir轨配對';
+
+  @override
+  String get flexitrackPairingTileTitle => '就跟你的教練一等';
+
+  @override
+  String get flexitrackPairingTileSubtitle => '將此應用程式連接到 Flexirack 伺服器';
+
+  @override
+  String get flexitrackServerUrl => '伺服器網址';
+
+  @override
+  String get flexitrackName => '姓名';
+
+  @override
+  String get flexitrackPairingKey => '對等金鑰';
+
+  @override
+  String get flexitrackCancel => '取消';
+
+  @override
+  String get flexitrackPair => '一等相';
+
+  @override
+  String get flexitrackHttpsRequired => '伺服器網址必須以 https:// 为起點';
+
+  @override
+  String get flexitrackPairingSuccess => '相對成功';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return '對等失敗 :$error';
   }
 }

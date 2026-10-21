@@ -1548,4 +1548,43 @@ class AppLocalizationsHi extends AppLocalizations {
   String setNumber(int number) {
     return 'सेट $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Flexitrack pairing';
+
+  @override
+  String get flexitrackPairingTileTitle => 'अपने कोच के साथ जोड़ी';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'इस एप्लिकेशन को फ्लेक्सिट्रैक सर्वर से कनेक्ट करें';
+
+  @override
+  String get flexitrackServerUrl => 'सर्वर यूआरएल';
+
+  @override
+  String get flexitrackName => 'नाम';
+
+  @override
+  String get flexitrackPairingKey => 'जोड़ी कुंजी';
+
+  @override
+  String get flexitrackCancel => 'रद्द करना';
+
+  @override
+  String get flexitrackPair => 'जोड़ी';
+
+  @override
+  String get flexitrackHttpsRequired => 'सर्वर यूआरएल को https://www.trl.';
+
+  @override
+  String get flexitrackPairingSuccess => 'जोड़ी सफल';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'जोड़ी विफल:$error';
+  }
 }

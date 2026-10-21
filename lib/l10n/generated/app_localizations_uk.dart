@@ -1577,4 +1577,44 @@ class AppLocalizationsUk extends AppLocalizations {
   String setNumber(int number) {
     return 'Підхід $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Flexitrack парі';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Похід з тренером';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Підключіть цей додаток до сервера Flexitrack';
+
+  @override
+  String get flexitrackServerUrl => 'Статус на сервери';
+
+  @override
+  String get flexitrackName => 'Ім\'я';
+
+  @override
+  String get flexitrackPairingKey => 'Pairing ключ';
+
+  @override
+  String get flexitrackCancel => 'Зареєструватися';
+
+  @override
+  String get flexitrackPair => 'Пейзаж';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'URL-адреса сервера повинна починатися з https://';
+
+  @override
+  String get flexitrackPairingSuccess => 'Успішне плавання';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Не вдалося:$error';
+  }
 }

@@ -1542,4 +1542,44 @@ class AppLocalizationsAr extends AppLocalizations {
   String setNumber(int number) {
     return 'المجموعة $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'الأزواج';
+
+  @override
+  String get flexitrackPairingTileTitle => 'طير مع مدربك';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'إربط هذا التطبيق إلى خادم (فلاكستراك)';
+
+  @override
+  String get flexitrackServerUrl => 'Server URL';
+
+  @override
+  String get flexitrackName => 'الاسم';
+
+  @override
+  String get flexitrackPairingKey => 'مفتاح الطلاء';
+
+  @override
+  String get flexitrackCancel => 'إلغاء';
+
+  @override
+  String get flexitrackPair => 'Pair';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'The server URL must start with https://';
+
+  @override
+  String get flexitrackPairingSuccess => 'النجاح';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'فشل الطير:$error';
+  }
 }

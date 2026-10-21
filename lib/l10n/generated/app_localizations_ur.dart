@@ -1555,4 +1555,44 @@ class AppLocalizationsUr extends AppLocalizations {
   String setNumber(int number) {
     return 'سیٹ $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'فولادی جوہر';
+
+  @override
+  String get flexitrackPairingTileTitle => 'آپ کی ٹرین کے ساتھ پیر';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'اس app کو Flexic سرور سے بند کریں';
+
+  @override
+  String get flexitrackServerUrl => 'سرور %d';
+
+  @override
+  String get flexitrackName => 'نام';
+
+  @override
+  String get flexitrackPairingKey => 'کُنجی';
+
+  @override
+  String get flexitrackCancel => 'منسوخ';
+
+  @override
+  String get flexitrackPair => 'پیر';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'سرور پانس کا آغاز https://s://s.com سے کرنا ہوگا';
+
+  @override
+  String get flexitrackPairingSuccess => 'پیری کامیاب';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'پیرینگ ضلع:$error';
+  }
 }

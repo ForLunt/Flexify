@@ -1580,4 +1580,44 @@ class AppLocalizationsRu extends AppLocalizations {
   String setNumber(int number) {
     return 'Подход $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Спаривание Flexitrack';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Взаимодействие с вашим тренером';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Подключите это приложение к серверу Flexitrack';
+
+  @override
+  String get flexitrackServerUrl => 'URL сервера';
+
+  @override
+  String get flexitrackName => 'Имя';
+
+  @override
+  String get flexitrackPairingKey => 'Парный ключ';
+
+  @override
+  String get flexitrackCancel => 'отменить';
+
+  @override
+  String get flexitrackPair => 'пар';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'URL сервера должен начинаться с https:';
+
+  @override
+  String get flexitrackPairingSuccess => 'Спаривание успешно';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Парирование провалилось:$error';
+  }
 }

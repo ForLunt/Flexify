@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "“{query}” ile eşleşen sonuç yok. Bunu yeni bir plan olarak oluşturabilirsin.",
   "createPlan": "Plan Oluştur",
   "createNamedPlan": "“{name}” Oluştur",
-  "setNumber": "{number}. Set"
+  "setNumber": "{number}. Set",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Flexitrack çiftleşiyor",
+  "flexitrackPairingTileTitle": "Antrenörünüzle Pair",
+  "flexitrackPairingTileSubtitle": "Bu uygulamayı Flexitrack sunucusuna bağlayın",
+  "flexitrackServerUrl": "Server URL",
+  "flexitrackName": "Name Name Name Name Name Name Name Name Name Name Name",
+  "flexitrackPairingKey": "Pairing key",
+  "flexitrackCancel": "Cancel Cancel Cancel Cancel",
+  "flexitrackPair": "Pair",
+  "flexitrackHttpsRequired": "Sunucu URL https ile başlamalıdır:",
+  "flexitrackPairingSuccess": "Pairing başarılı",
+  "flexitrackPairingFailed": "Pairing başarısız oldu:{error}"
 }

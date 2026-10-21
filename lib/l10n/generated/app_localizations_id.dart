@@ -1565,4 +1565,44 @@ class AppLocalizationsId extends AppLocalizations {
   String setNumber(int number) {
     return 'Set ke-$number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Pasangan Flexitrack';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Pair dengan pelatih Anda';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Hubungkan aplikasi ini ke server Flexitrack';
+
+  @override
+  String get flexitrackServerUrl => 'URL Server';
+
+  @override
+  String get flexitrackName => 'Nama';
+
+  @override
+  String get flexitrackPairingKey => 'Kunci yang dipasangkan';
+
+  @override
+  String get flexitrackCancel => 'Batal';
+
+  @override
+  String get flexitrackPair => 'Pair';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'URL server harus dimulai dengan https: / /';
+
+  @override
+  String get flexitrackPairingSuccess => 'Berpasangan berhasil';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Pemasangan gagal:$error';
+  }
 }

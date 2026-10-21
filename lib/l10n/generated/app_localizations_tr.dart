@@ -1570,4 +1570,44 @@ class AppLocalizationsTr extends AppLocalizations {
   String setNumber(int number) {
     return '$number. Set';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Flexitrack çiftleşiyor';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Antrenörünüzle Pair';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Bu uygulamayı Flexitrack sunucusuna bağlayın';
+
+  @override
+  String get flexitrackServerUrl => 'Server URL';
+
+  @override
+  String get flexitrackName =>
+      'Name Name Name Name Name Name Name Name Name Name Name';
+
+  @override
+  String get flexitrackPairingKey => 'Pairing key';
+
+  @override
+  String get flexitrackCancel => 'Cancel Cancel Cancel Cancel';
+
+  @override
+  String get flexitrackPair => 'Pair';
+
+  @override
+  String get flexitrackHttpsRequired => 'Sunucu URL https ile başlamalıdır:';
+
+  @override
+  String get flexitrackPairingSuccess => 'Pairing başarılı';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Pairing başarısız oldu:$error';
+  }
 }

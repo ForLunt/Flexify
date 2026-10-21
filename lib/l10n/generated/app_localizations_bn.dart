@@ -1551,4 +1551,44 @@ class AppLocalizationsBn extends AppLocalizations {
   String setNumber(int number) {
     return 'সেট $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'সকল বিচ্ছিন্ন করুন';
+
+  @override
+  String get flexitrackPairingTileTitle => 'তোমার কোচের সাথে জুটি';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'এই অ্যাপ্লিকেশনটি FMect সার্ভারে সংযুক্ত করুন';
+
+  @override
+  String get flexitrackServerUrl => 'সার্ভারের URL';
+
+  @override
+  String get flexitrackName => 'নাম';
+
+  @override
+  String get flexitrackPairingKey => 'জুটি কি';
+
+  @override
+  String get flexitrackCancel => 'বাতিল';
+
+  @override
+  String get flexitrackPair => 'জুটি';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'এই সার্ভার ইউ- আর- এল এর সঙ্গে আরম্ভ করা আবশ্যক';
+
+  @override
+  String get flexitrackPairingSuccess => 'জুটি সফল';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'জুটি তৈরি করতে ব্যর্থ:$error';
+  }
 }

@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_ar.dart';
 import 'app_localizations_bn.dart';
@@ -82,7 +83,8 @@ import 'app_localizations_zh.dart';
 /// be consistent with the languages listed in the AppLocalizations.supportedLocales
 /// property.
 abstract class AppLocalizations {
-  AppLocalizations(String locale) : localeName = locale.replaceAll('-', '_');
+  AppLocalizations(String locale)
+    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -2877,6 +2879,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Set {number}'**
   String setNumber(int number);
+
+  /// Title of the Flexitrack settings page
+  ///
+  /// In en, this message translates to:
+  /// **'Flexitrack'**
+  String get flexitrack;
+
+  /// Title of the dialog used to pair the app with a Flexitrack server
+  ///
+  /// In en, this message translates to:
+  /// **'Flexitrack pairing'**
+  String get flexitrackPairingTitle;
+
+  /// Title of the settings tile that opens the pairing dialog
+  ///
+  /// In en, this message translates to:
+  /// **'Pair with your coach'**
+  String get flexitrackPairingTileTitle;
+
+  /// Subtitle of the settings tile that opens the pairing dialog
+  ///
+  /// In en, this message translates to:
+  /// **'Connect this app to the Flexitrack server'**
+  String get flexitrackPairingTileSubtitle;
+
+  /// Label of the server URL field
+  ///
+  /// In en, this message translates to:
+  /// **'Server URL'**
+  String get flexitrackServerUrl;
+
+  /// Label of the subscriber name field
+  ///
+  /// In en, this message translates to:
+  /// **'Name'**
+  String get flexitrackName;
+
+  /// Label of the pairing key field
+  ///
+  /// In en, this message translates to:
+  /// **'Pairing key'**
+  String get flexitrackPairingKey;
+
+  /// Button that closes the pairing dialog without pairing
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get flexitrackCancel;
+
+  /// Button that starts the pairing
+  ///
+  /// In en, this message translates to:
+  /// **'Pair'**
+  String get flexitrackPair;
+
+  /// Error shown when the server URL does not start with https://
+  ///
+  /// In en, this message translates to:
+  /// **'The server URL must start with https://'**
+  String get flexitrackHttpsRequired;
+
+  /// Message shown when pairing succeeds
+  ///
+  /// In en, this message translates to:
+  /// **'Pairing successful'**
+  String get flexitrackPairingSuccess;
+
+  /// Message shown when pairing fails
+  ///
+  /// In en, this message translates to:
+  /// **'Pairing failed: {error}'**
+  String flexitrackPairingFailed(String error);
 }
 
 class _AppLocalizationsDelegate

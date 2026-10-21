@@ -2004,5 +2004,17 @@
         "type": "int"
       }
     }
-  }
+  },
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "การจับคู่คู่แบบ facter",
+  "flexitrackPairingTileTitle": "บันไดกับโค้ชของคุณ",
+  "flexitrackPairingTileSubtitle": "เชื่อมต่อโปรแกรมนี้ไปยังแม่ข่าย FLACK",
+  "flexitrackServerUrl": "ที่อยู่ URL ของแม่ข่าย",
+  "flexitrackName": "ชื่อ",
+  "flexitrackPairingKey": "ปุ่มเลื่อน",
+  "flexitrackCancel": "ยกเลิก",
+  "flexitrackPair": "จุด",
+  "flexitrackHttpsRequired": "ที่อยู่ URL ของแม่ข่ายต้องเริ่มด้วย https/s/s/s/s/c.bg transparent",
+  "flexitrackPairingSuccess": "การปูร่มประสบความสําเร็จ",
+  "flexitrackPairingFailed": "การวางรางล้มเหลว:{error}"
 }

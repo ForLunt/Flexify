@@ -1497,4 +1497,42 @@ class AppLocalizationsJa extends AppLocalizations {
   String setNumber(int number) {
     return 'セット $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Flexitrack ペアリング';
+
+  @override
+  String get flexitrackPairingTileTitle => 'あなたのコーチとペア';
+
+  @override
+  String get flexitrackPairingTileSubtitle => 'このアプリをFlexitrackサーバーに接続する';
+
+  @override
+  String get flexitrackServerUrl => 'サーバ URL';
+
+  @override
+  String get flexitrackName => 'お名前 (必須)';
+
+  @override
+  String get flexitrackPairingKey => 'ペアリングキー';
+
+  @override
+  String get flexitrackCancel => 'キャンセル';
+
+  @override
+  String get flexitrackPair => 'ペア';
+
+  @override
+  String get flexitrackHttpsRequired => 'サーバ URL は https:// で起動する必要があります。';
+
+  @override
+  String get flexitrackPairingSuccess => '成功したペアリング';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'ペアリングが失敗しました:$error';
+  }
 }

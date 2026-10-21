@@ -1576,6 +1576,46 @@ class AppLocalizationsPt extends AppLocalizations {
   String setNumber(int number) {
     return 'Série $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Emparelhamento Flexitrack';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Emparelhe com seu treinador';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Conecte esta aplicação ao servidor Flexitrack';
+
+  @override
+  String get flexitrackServerUrl => 'URL do servidor';
+
+  @override
+  String get flexitrackName => 'Nome';
+
+  @override
+  String get flexitrackPairingKey => 'Chave de pareamento';
+
+  @override
+  String get flexitrackCancel => 'Cancelar';
+
+  @override
+  String get flexitrackPair => 'Par';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'O URL do servidor deve começar com https://';
+
+  @override
+  String get flexitrackPairingSuccess => 'Emparelhamento com sucesso';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Falha no pareamento:$error';
+  }
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -3141,6 +3181,46 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String setNumber(int number) {
     return 'Série $number';
+  }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Emparelhamento Flexitrack';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Emparelhe com seu treinador';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Conecte esta aplicação ao servidor Flexitrack';
+
+  @override
+  String get flexitrackServerUrl => 'URL do servidor';
+
+  @override
+  String get flexitrackName => 'Nome';
+
+  @override
+  String get flexitrackPairingKey => 'Chave de pareamento';
+
+  @override
+  String get flexitrackCancel => 'Cancelar';
+
+  @override
+  String get flexitrackPair => 'Par';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'O URL do servidor deve começar com https://';
+
+  @override
+  String get flexitrackPairingSuccess => 'Emparelhamento com sucesso';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Falha no pareamento:$error';
   }
 }
 
@@ -4715,5 +4795,45 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
   @override
   String setNumber(int number) {
     return 'Série $number';
+  }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Emparelhamento Flexitrack';
+
+  @override
+  String get flexitrackPairingTileTitle => 'Emparelhe com seu treinador';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'Conecte esta aplicação ao servidor Flexitrack';
+
+  @override
+  String get flexitrackServerUrl => 'URL do servidor';
+
+  @override
+  String get flexitrackName => 'Nome';
+
+  @override
+  String get flexitrackPairingKey => 'Chave de pareamento';
+
+  @override
+  String get flexitrackCancel => 'Cancelar';
+
+  @override
+  String get flexitrackPair => 'Par';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'O URL do servidor deve começar com https://';
+
+  @override
+  String get flexitrackPairingSuccess => 'Emparelhamento com sucesso';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'Falha no pareamento:$error';
   }
 }

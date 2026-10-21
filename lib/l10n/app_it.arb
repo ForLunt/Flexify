@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "Nessun risultato per “{query}”. Puoi crearlo come nuova scheda.",
   "createPlan": "Crea scheda",
   "createNamedPlan": "Crea “{name}”",
-  "setNumber": "Serie {number}"
+  "setNumber": "Serie {number}",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Abbinamento Flexitrack",
+  "flexitrackPairingTileTitle": "Coppia con il tuo allenatore",
+  "flexitrackPairingTileSubtitle": "Collegare questa app al server Flexitrack",
+  "flexitrackServerUrl": "URL del server",
+  "flexitrackName": "Nome",
+  "flexitrackPairingKey": "Chiave di accoppiamento",
+  "flexitrackCancel": "Annulla",
+  "flexitrackPair": "Coppia coppia",
+  "flexitrackHttpsRequired": "L'URL del server deve iniziare con https://",
+  "flexitrackPairingSuccess": "Abbinamento di successo",
+  "flexitrackPairingFailed": "Abbinamento fallito:{error}"
 }

@@ -1539,4 +1539,44 @@ class AppLocalizationsTh extends AppLocalizations {
   String setNumber(int number) {
     return 'เซ็ต $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'การจับคู่คู่แบบ facter';
+
+  @override
+  String get flexitrackPairingTileTitle => 'บันไดกับโค้ชของคุณ';
+
+  @override
+  String get flexitrackPairingTileSubtitle =>
+      'เชื่อมต่อโปรแกรมนี้ไปยังแม่ข่าย FLACK';
+
+  @override
+  String get flexitrackServerUrl => 'ที่อยู่ URL ของแม่ข่าย';
+
+  @override
+  String get flexitrackName => 'ชื่อ';
+
+  @override
+  String get flexitrackPairingKey => 'ปุ่มเลื่อน';
+
+  @override
+  String get flexitrackCancel => 'ยกเลิก';
+
+  @override
+  String get flexitrackPair => 'จุด';
+
+  @override
+  String get flexitrackHttpsRequired =>
+      'ที่อยู่ URL ของแม่ข่ายต้องเริ่มด้วย https/s/s/s/s/c.bg transparent';
+
+  @override
+  String get flexitrackPairingSuccess => 'การปูร่มประสบความสําเร็จ';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return 'การวางรางล้มเหลว:$error';
+  }
 }

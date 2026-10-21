@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "Nada corresponde a “{query}”. Pode criá-lo como um novo plano.",
   "createPlan": "Criar plano",
   "createNamedPlan": "Criar “{name}”",
-  "setNumber": "Série {number}"
+  "setNumber": "Série {number}",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Emparelhamento Flexitrack",
+  "flexitrackPairingTileTitle": "Emparelhe com seu treinador",
+  "flexitrackPairingTileSubtitle": "Conecte esta aplicação ao servidor Flexitrack",
+  "flexitrackServerUrl": "URL do servidor",
+  "flexitrackName": "Nome",
+  "flexitrackPairingKey": "Chave de pareamento",
+  "flexitrackCancel": "Cancelar",
+  "flexitrackPair": "Par",
+  "flexitrackHttpsRequired": "O URL do servidor deve começar com https://",
+  "flexitrackPairingSuccess": "Emparelhamento com sucesso",
+  "flexitrackPairingFailed": "Falha no pareamento:{error}"
 }

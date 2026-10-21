@@ -1499,4 +1499,42 @@ class AppLocalizationsKo extends AppLocalizations {
   String setNumber(int number) {
     return '세트 $number';
   }
+
+  @override
+  String get flexitrack => 'Flexitrack';
+
+  @override
+  String get flexitrackPairingTitle => 'Flexitrack 페어링';
+
+  @override
+  String get flexitrackPairingTileTitle => '당신의 코치와 쌍';
+
+  @override
+  String get flexitrackPairingTileSubtitle => 'Flexitrack 서버에 이 앱을 연결';
+
+  @override
+  String get flexitrackServerUrl => '서버 URL';
+
+  @override
+  String get flexitrackName => '이름 *';
+
+  @override
+  String get flexitrackPairingKey => '페어링 키';
+
+  @override
+  String get flexitrackCancel => '이름 *';
+
+  @override
+  String get flexitrackPair => '제품 정보';
+
+  @override
+  String get flexitrackHttpsRequired => '서버 URL은 https://로 시작해야 합니다.';
+
+  @override
+  String get flexitrackPairingSuccess => '성공의 쌍';
+
+  @override
+  String flexitrackPairingFailed(String error) {
+    return '페어링 실패:$error';
+  }
 }
