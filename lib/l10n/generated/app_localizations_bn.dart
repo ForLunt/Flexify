@@ -1556,14 +1556,15 @@ class AppLocalizationsBn extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'সকল বিচ্ছিন্ন করুন';
+  String get flexitrackPairingTitle =>
+      'FATLXTSCRND একযোগে জোড়া জোড়া তৈরি করা হবে';
 
   @override
   String get flexitrackPairingTileTitle => 'তোমার কোচের সাথে জুটি';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'এই অ্যাপ্লিকেশনটি FMect সার্ভারে সংযুক্ত করুন';
+      'এই অ্যাপলিকেশনটির সাথে FFLACRND সার্ভারে সংযুক্ত করুন';
 
   @override
   String get flexitrackServerUrl => 'সার্ভারের URL';

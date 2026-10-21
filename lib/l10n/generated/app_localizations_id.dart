@@ -1570,14 +1570,14 @@ class AppLocalizationsId extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Pasangan Flexitrack';
+  String get flexitrackPairingTitle => 'FLXTRCKBRND discoding';
 
   @override
   String get flexitrackPairingTileTitle => 'Pair dengan pelatih Anda';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Hubungkan aplikasi ini ke server Flexitrack';
+      'Hubungkan aplikasi ini ke server LLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'URL Server';
@@ -1599,7 +1599,7 @@ class AppLocalizationsId extends AppLocalizations {
       'URL server harus dimulai dengan https: / /';
 
   @override
-  String get flexitrackPairingSuccess => 'Berpasangan berhasil';
+  String get flexitrackPairingSuccess => 'Penundaan sukses';
 
   @override
   String flexitrackPairingFailed(String error) {

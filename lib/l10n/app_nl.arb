@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "Niets komt overeen met “{query}”. Je kunt dit als nieuw schema aanmaken.",
   "createPlan": "Schema aanmaken",
   "createNamedPlan": "“{name}” aanmaken",
-  "setNumber": "Set {number}"
+  "setNumber": "Set {number}",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Vertaling:",
+  "flexitrackPairingTileTitle": "Paar met je coach",
+  "flexitrackPairingTileSubtitle": "Sluit deze app aan op de server van de FLXTRCKBRND",
+  "flexitrackServerUrl": "Server-URL",
+  "flexitrackName": "Naam",
+  "flexitrackPairingKey": "Spiegelsleutel",
+  "flexitrackCancel": "Annuleren",
+  "flexitrackPair": "Paar",
+  "flexitrackHttpsRequired": "De server-URL moet beginnen met https://",
+  "flexitrackPairingSuccess": "Paar succesvol",
+  "flexitrackPairingFailed": "Paren mislukt:{error}"
 }

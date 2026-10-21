@@ -1569,13 +1569,14 @@ class AppLocalizationsMs extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Pasangan Flexitrack';
+  String get flexitrackPairingTitle => 'Flexitrack pasangan';
 
   @override
   String get flexitrackPairingTileTitle => 'Pasangan dengan pelatih Anda';
 
   @override
-  String get flexitrackPairingTileSubtitle => 'Flexitrack server';
+  String get flexitrackPairingTileSubtitle =>
+      'Mainkan aplikasi ini ke server Flexitrack';
 
   @override
   String get flexitrackServerUrl => 'URL server';

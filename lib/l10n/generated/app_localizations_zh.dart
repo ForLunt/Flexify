@@ -1491,13 +1491,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => '弗莱克赛道配对';
+  String get flexitrackPairingTitle => 'FLXTRCKBRND 配对';
 
   @override
-  String get flexitrackPairingTileTitle => '和教练对战';
+  String get flexitrackPairingTileTitle => '跟教练对战';
 
   @override
-  String get flexitrackPairingTileSubtitle => '将此应用程序连接到 Flexirack 服务器';
+  String get flexitrackPairingTileSubtitle => '将此应用程序连接到 QQFLXTRCKBRNDQQ 服务器';
 
   @override
   String get flexitrackServerUrl => '服务器 URL';
@@ -1512,7 +1512,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get flexitrackCancel => '取消';
 
   @override
-  String get flexitrackPair => '对';
+  String get flexitrackPair => '平对';
 
   @override
   String get flexitrackHttpsRequired => '服务器 URL 必须从 https:// 开始';
@@ -3013,13 +3013,13 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => '弗莱克赛道配对';
+  String get flexitrackPairingTitle => 'FLXTRCKBRND 配对';
 
   @override
-  String get flexitrackPairingTileTitle => '和教练对战';
+  String get flexitrackPairingTileTitle => '跟教练对战';
 
   @override
-  String get flexitrackPairingTileSubtitle => '将此应用程序连接到 Flexirack 服务器';
+  String get flexitrackPairingTileSubtitle => '将此应用程序连接到 QQFLXTRCKBRNDQQ 服务器';
 
   @override
   String get flexitrackServerUrl => '服务器 URL';
@@ -3034,7 +3034,7 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get flexitrackCancel => '取消';
 
   @override
-  String get flexitrackPair => '对';
+  String get flexitrackPair => '平对';
 
   @override
   String get flexitrackHttpsRequired => '服务器 URL 必须从 https:// 开始';
@@ -4535,13 +4535,13 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Flexir轨配對';
+  String get flexitrackPairingTitle => 'FLXTRCKBRND 配對';
 
   @override
-  String get flexitrackPairingTileTitle => '就跟你的教練一等';
+  String get flexitrackPairingTileTitle => '跟你的教練對等';
 
   @override
-  String get flexitrackPairingTileSubtitle => '將此應用程式連接到 Flexirack 伺服器';
+  String get flexitrackPairingTileSubtitle => '將此應用程式連接到% 1';
 
   @override
   String get flexitrackServerUrl => '伺服器網址';
@@ -4556,16 +4556,16 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get flexitrackCancel => '取消';
 
   @override
-  String get flexitrackPair => '一等相';
+  String get flexitrackPair => '平面';
 
   @override
-  String get flexitrackHttpsRequired => '伺服器網址必須以 https:// 为起點';
+  String get flexitrackHttpsRequired => '伺服器網址必須從 https:// 開始';
 
   @override
-  String get flexitrackPairingSuccess => '相對成功';
+  String get flexitrackPairingSuccess => '配對成功';
 
   @override
   String flexitrackPairingFailed(String error) {
-    return '對等失敗 :$error';
+    return '配對失敗 :$error';
   }
 }

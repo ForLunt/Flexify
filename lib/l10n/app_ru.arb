@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "Ничто не совпадает с «{query}». Вы можете создать его как новый план.",
   "createPlan": "Создать план",
   "createNamedPlan": "Создать «{name}»",
-  "setNumber": "Подход {number}"
+  "setNumber": "Подход {number}",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "FLXTRCKBRND спаривание",
+  "flexitrackPairingTileTitle": "Взаимодействие с вашим тренером",
+  "flexitrackPairingTileSubtitle": "Подключите это приложение к серверу FLXTRCKBRND",
+  "flexitrackServerUrl": "URL сервера",
+  "flexitrackName": "Имя",
+  "flexitrackPairingKey": "Парный ключ",
+  "flexitrackCancel": "отменить",
+  "flexitrackPair": "пара",
+  "flexitrackHttpsRequired": "URL сервера должен начинаться с https:",
+  "flexitrackPairingSuccess": "Спаривание успешно",
+  "flexitrackPairingFailed": "Парирование провалилось:{error}"
 }

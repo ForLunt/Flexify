@@ -1502,16 +1502,16 @@ class AppLocalizationsJa extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Flexitrack ペアリング';
+  String get flexitrackPairingTitle => 'FLXTRCKBRND ペアリング';
 
   @override
   String get flexitrackPairingTileTitle => 'あなたのコーチとペア';
 
   @override
-  String get flexitrackPairingTileSubtitle => 'このアプリをFlexitrackサーバーに接続する';
+  String get flexitrackPairingTileSubtitle => 'このアプリを .FLXTRCKBRND サーバーに接続します。';
 
   @override
-  String get flexitrackServerUrl => 'サーバ URL';
+  String get flexitrackServerUrl => 'サーバー URL';
 
   @override
   String get flexitrackName => 'お名前 (必須)';
@@ -1526,7 +1526,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get flexitrackPair => 'ペア';
 
   @override
-  String get flexitrackHttpsRequired => 'サーバ URL は https:// で起動する必要があります。';
+  String get flexitrackHttpsRequired => 'サーバ URL は https:// で始まる必要があります。';
 
   @override
   String get flexitrackPairingSuccess => '成功したペアリング';

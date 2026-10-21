@@ -2004,5 +2004,17 @@
         "type": "int"
       }
     }
-  }
+  },
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "⁠FLXTRCKBRNDing",
+  "flexitrackPairingTileTitle": "طير مع مدربك",
+  "flexitrackPairingTileSubtitle": "صل هذا التطبيق إلى خادم XFLXTRCKBRNDr",
+  "flexitrackServerUrl": "Server URL",
+  "flexitrackName": "الاسم",
+  "flexitrackPairingKey": "مفتاح الطلاء",
+  "flexitrackCancel": "إلغاء",
+  "flexitrackPair": "Pair",
+  "flexitrackHttpsRequired": "The server URL must start with https://",
+  "flexitrackPairingSuccess": "النجاح",
+  "flexitrackPairingFailed": "فشل الرنين:{error}"
 }

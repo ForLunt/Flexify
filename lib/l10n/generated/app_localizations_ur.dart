@@ -1560,14 +1560,14 @@ class AppLocalizationsUr extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'فولادی جوہر';
+  String get flexitrackPairingTitle => '▪ جوڑوں کا درد';
 
   @override
   String get flexitrackPairingTileTitle => 'آپ کی ٹرین کے ساتھ پیر';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'اس app کو Flexic سرور سے بند کریں';
+      'اس ایپ کو ٭FLXTRRKBRSTRS سرور کو بند کریں';
 
   @override
   String get flexitrackServerUrl => 'سرور %d';
@@ -1589,7 +1589,7 @@ class AppLocalizationsUr extends AppLocalizations {
       'سرور پانس کا آغاز https://s://s.com سے کرنا ہوگا';
 
   @override
-  String get flexitrackPairingSuccess => 'پیری کامیاب';
+  String get flexitrackPairingSuccess => 'کامیاب';
 
   @override
   String flexitrackPairingFailed(String error) {

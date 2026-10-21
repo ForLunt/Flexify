@@ -1547,14 +1547,14 @@ class AppLocalizationsAr extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'الأزواج';
+  String get flexitrackPairingTitle => '⁠FLXTRCKBRNDing';
 
   @override
   String get flexitrackPairingTileTitle => 'طير مع مدربك';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'إربط هذا التطبيق إلى خادم (فلاكستراك)';
+      'صل هذا التطبيق إلى خادم XFLXTRCKBRNDr';
 
   @override
   String get flexitrackServerUrl => 'Server URL';
@@ -1580,6 +1580,6 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String flexitrackPairingFailed(String error) {
-    return 'فشل الطير:$error';
+    return 'فشل الرنين:$error';
   }
 }

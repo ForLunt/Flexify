@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "Brak wyników dla „{query}”. Możesz utworzyć to jako nowy plan.",
   "createPlan": "Utwórz plan",
   "createNamedPlan": "Utwórz „{name}”",
-  "setNumber": "Seria {number}"
+  "setNumber": "Seria {number}",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "FLXTRCKBRND",
+  "flexitrackPairingTileTitle": "Para z trenerem",
+  "flexitrackPairingTileSubtitle": "Podłącz tę aplikację do serwera filtrów FLXTRCKBRND",
+  "flexitrackServerUrl": "URL serwera",
+  "flexitrackName": "Nazwa",
+  "flexitrackPairingKey": "Klucz parowania",
+  "flexitrackCancel": "Anuluj",
+  "flexitrackPair": "Para",
+  "flexitrackHttpsRequired": "URL serwera musi zacząć się od https: / /",
+  "flexitrackPairingSuccess": "Parowanie zakończone sukcesem",
+  "flexitrackPairingFailed": "Parowanie nie powiodło się:{error}"
 }

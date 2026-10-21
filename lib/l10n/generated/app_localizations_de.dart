@@ -1575,14 +1575,14 @@ class AppLocalizationsDe extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Flexitrack-Paarung';
+  String get flexitrackPairingTitle => 'Paarung FLXTRCKBRND';
 
   @override
   String get flexitrackPairingTileTitle => 'Pair mit Ihrem Coach';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Verbinden Sie diese App mit dem Flexitrack-Server';
+      'Verbinden Sie diese App mit dem Server FLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'Server URL';

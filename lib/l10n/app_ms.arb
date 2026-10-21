@@ -2004,5 +2004,17 @@
         "type": "int"
       }
     }
-  }
+  },
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Flexitrack pasangan",
+  "flexitrackPairingTileTitle": "Pasangan dengan pelatih Anda",
+  "flexitrackPairingTileSubtitle": "Mainkan aplikasi ini ke server Flexitrack",
+  "flexitrackServerUrl": "URL server",
+  "flexitrackName": "Nama",
+  "flexitrackPairingKey": "Pasangan kunci",
+  "flexitrackCancel": "Batal",
+  "flexitrackPair": "Pasangan",
+  "flexitrackHttpsRequired": "URL server harus dimulai dengan https://",
+  "flexitrackPairingSuccess": "Pasangan berhasil",
+  "flexitrackPairingFailed": "Pasangan pasangan gagal:{error}"
 }

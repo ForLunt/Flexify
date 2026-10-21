@@ -1582,14 +1582,14 @@ class AppLocalizationsUk extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Flexitrack парі';
+  String get flexitrackPairingTitle => '^FLXTRCKBRND Поєднання';
 
   @override
   String get flexitrackPairingTileTitle => 'Похід з тренером';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Підключіть цей додаток до сервера Flexitrack';
+      'Підключіть цей додаток до сервера FLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'Статус на сервери';

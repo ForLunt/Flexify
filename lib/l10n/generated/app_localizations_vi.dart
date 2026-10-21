@@ -1566,14 +1566,14 @@ class AppLocalizationsVi extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Cặp Flexitrack';
+  String get flexitrackPairingTitle => 'khí cầu nối';
 
   @override
   String get flexitrackPairingTileTitle => 'Đi chung với huấn luyện viên';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Kết nối ứng dụng này tới máy chủ Flexirack';
+      'Kết nối ứng dụng này đến máy chủ  khí XXTRIDBRND';
 
   @override
   String get flexitrackServerUrl => 'URL máy phục vụ';

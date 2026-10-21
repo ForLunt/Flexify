@@ -1585,14 +1585,14 @@ class AppLocalizationsRu extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Спаривание Flexitrack';
+  String get flexitrackPairingTitle => 'FLXTRCKBRND спаривание';
 
   @override
   String get flexitrackPairingTileTitle => 'Взаимодействие с вашим тренером';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Подключите это приложение к серверу Flexitrack';
+      'Подключите это приложение к серверу FLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'URL сервера';
@@ -1607,7 +1607,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get flexitrackCancel => 'отменить';
 
   @override
-  String get flexitrackPair => 'пар';
+  String get flexitrackPair => 'пара';
 
   @override
   String get flexitrackHttpsRequired =>

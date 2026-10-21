@@ -1559,14 +1559,14 @@ class AppLocalizationsFa extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'FlexiTrack جفتینگ';
+  String get flexitrackPairingTitle => '⁠FLXTRCBRND';
 
   @override
   String get flexitrackPairingTileTitle => 'پرواز با مربی خود';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'اتصال این برنامه به سرور FlexiTrack';
+      'این برنامه را به سرور ⁠FLXTRCBRND متصل کنید';
 
   @override
   String get flexitrackServerUrl => 'سرور URL';

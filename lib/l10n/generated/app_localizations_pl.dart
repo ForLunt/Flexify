@@ -1584,14 +1584,14 @@ class AppLocalizationsPl extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Parowanie Flexitrack';
+  String get flexitrackPairingTitle => 'FLXTRCKBRND';
 
   @override
   String get flexitrackPairingTileTitle => 'Para z trenerem';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Podłącz tę aplikację do serwera Flexitrack';
+      'Podłącz tę aplikację do serwera filtrów FLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'URL serwera';

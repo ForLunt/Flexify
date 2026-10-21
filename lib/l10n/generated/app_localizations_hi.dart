@@ -1553,14 +1553,14 @@ class AppLocalizationsHi extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Flexitrack pairing';
+  String get flexitrackPairingTitle => 'फ्लक्सट्रकब्रैंड जोड़ी';
 
   @override
   String get flexitrackPairingTileTitle => 'अपने कोच के साथ जोड़ी';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'इस एप्लिकेशन को फ्लेक्सिट्रैक सर्वर से कनेक्ट करें';
+      'इस एप्लिकेशन को arrowFLXTRCKBRND सर्वर से कनेक्ट करें';
 
   @override
   String get flexitrackServerUrl => 'सर्वर यूआरएल';

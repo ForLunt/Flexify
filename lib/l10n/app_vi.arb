@@ -2004,5 +2004,17 @@
         "type": "int"
       }
     }
-  }
+  },
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "khí cầu nối",
+  "flexitrackPairingTileTitle": "Đi chung với huấn luyện viên",
+  "flexitrackPairingTileSubtitle": "Kết nối ứng dụng này đến máy chủ  khí XXTRIDBRND",
+  "flexitrackServerUrl": "URL máy phục vụ",
+  "flexitrackName": "Tên",
+  "flexitrackPairingKey": "Phím Đôi",
+  "flexitrackCancel": "Thôi",
+  "flexitrackPair": "Đôi",
+  "flexitrackHttpsRequired": "Địa chỉ URL máy phục vụ phải bắt đầu với https vội",
+  "flexitrackPairingSuccess": "Sự phân chia thành công",
+  "flexitrackPairingFailed": "Lỗi phân tách:{error}"
 }

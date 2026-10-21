@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "Keine Treffer für „{query}“. Du kannst daraus einen neuen Plan erstellen.",
   "createPlan": "Plan erstellen",
   "createNamedPlan": "„{name}“ erstellen",
-  "setNumber": "Satz {number}"
+  "setNumber": "Satz {number}",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Paarung FLXTRCKBRND",
+  "flexitrackPairingTileTitle": "Pair mit Ihrem Coach",
+  "flexitrackPairingTileSubtitle": "Verbinden Sie diese App mit dem Server FLXTRCKBRND",
+  "flexitrackServerUrl": "Server URL",
+  "flexitrackName": "Name",
+  "flexitrackPairingKey": "Pairing Key",
+  "flexitrackCancel": "Stornierung",
+  "flexitrackPair": "Paar",
+  "flexitrackHttpsRequired": "Die Server-URL muss mit https://",
+  "flexitrackPairingSuccess": "Pairing erfolgreich",
+  "flexitrackPairingFailed": "Paarung fehlgeschlagen:{error}"
 }

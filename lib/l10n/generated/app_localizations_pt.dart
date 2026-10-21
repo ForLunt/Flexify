@@ -1581,14 +1581,14 @@ class AppLocalizationsPt extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Emparelhamento Flexitrack';
+  String get flexitrackPairingTitle => 'Emparelhamento □FLXTRCKBRND';
 
   @override
   String get flexitrackPairingTileTitle => 'Emparelhe com seu treinador';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Conecte esta aplicação ao servidor Flexitrack';
+      'Conecte esta aplicação ao servidor □FLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'URL do servidor';
@@ -3187,14 +3187,14 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Emparelhamento Flexitrack';
+  String get flexitrackPairingTitle => 'Emparelhamento □FLXTRCKBRND';
 
   @override
   String get flexitrackPairingTileTitle => 'Emparelhe com seu treinador';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Conecte esta aplicação ao servidor Flexitrack';
+      'Conecte esta aplicação ao servidor □FLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'URL do servidor';
@@ -4801,14 +4801,14 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Emparelhamento Flexitrack';
+  String get flexitrackPairingTitle => 'Emparelhamento □FLXTRCKBRND';
 
   @override
   String get flexitrackPairingTileTitle => 'Emparelhe com seu treinador';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Conecte esta aplicação ao servidor Flexitrack';
+      'Conecte esta aplicação ao servidor □FLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'URL do servidor';

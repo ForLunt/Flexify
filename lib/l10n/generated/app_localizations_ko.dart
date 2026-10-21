@@ -1504,13 +1504,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Flexitrack 페어링';
+  String get flexitrackPairingTitle => '⁠FLXTRCKBRND 페어링';
 
   @override
   String get flexitrackPairingTileTitle => '당신의 코치와 쌍';
 
   @override
-  String get flexitrackPairingTileSubtitle => 'Flexitrack 서버에 이 앱을 연결';
+  String get flexitrackPairingTileSubtitle => '이 앱을 FLXTRCKBRND⁠ 서버에 연결';
 
   @override
   String get flexitrackServerUrl => '서버 URL';

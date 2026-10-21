@@ -1571,14 +1571,14 @@ class AppLocalizationsNl extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'Flexitrack koppeling';
+  String get flexitrackPairingTitle => 'Vertaling:';
 
   @override
   String get flexitrackPairingTileTitle => 'Paar met je coach';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'Sluit deze app aan op de Flexitrack server';
+      'Sluit deze app aan op de server van de FLXTRCKBRND';
 
   @override
   String get flexitrackServerUrl => 'Server-URL';
@@ -1587,7 +1587,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get flexitrackName => 'Naam';
 
   @override
-  String get flexitrackPairingKey => 'Paarsleutel';
+  String get flexitrackPairingKey => 'Spiegelsleutel';
 
   @override
   String get flexitrackCancel => 'Annuleren';

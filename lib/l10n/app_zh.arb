@@ -488,5 +488,17 @@
   "nothingMatchesPlanSearch": "没有与“{query}”匹配的内容。你可以将其创建为新计划。",
   "createPlan": "创建计划",
   "createNamedPlan": "创建“{name}”",
-  "setNumber": "第 {number} 组"
+  "setNumber": "第 {number} 组",
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "FLXTRCKBRND 配对",
+  "flexitrackPairingTileTitle": "跟教练对战",
+  "flexitrackPairingTileSubtitle": "将此应用程序连接到 QQFLXTRCKBRNDQQ 服务器",
+  "flexitrackServerUrl": "服务器 URL",
+  "flexitrackName": "名称",
+  "flexitrackPairingKey": "对齐密钥",
+  "flexitrackCancel": "取消",
+  "flexitrackPair": "平对",
+  "flexitrackHttpsRequired": "服务器 URL 必须从 https:// 开始",
+  "flexitrackPairingSuccess": "配对成功",
+  "flexitrackPairingFailed": "对齐失败 :{error}"
 }

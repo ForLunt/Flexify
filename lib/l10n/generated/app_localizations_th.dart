@@ -1544,14 +1544,14 @@ class AppLocalizationsTh extends AppLocalizations {
   String get flexitrack => 'Flexitrack';
 
   @override
-  String get flexitrackPairingTitle => 'การจับคู่คู่แบบ facter';
+  String get flexitrackPairingTitle => 'ส่วนหัวคู่';
 
   @override
   String get flexitrackPairingTileTitle => 'บันไดกับโค้ชของคุณ';
 
   @override
   String get flexitrackPairingTileSubtitle =>
-      'เชื่อมต่อโปรแกรมนี้ไปยังแม่ข่าย FLACK';
+      'เชื่อมต่อโปรแกรมนี้ไปยังแม่ข่ายบริการ service';
 
   @override
   String get flexitrackServerUrl => 'ที่อยู่ URL ของแม่ข่าย';
@@ -1560,7 +1560,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get flexitrackName => 'ชื่อ';
 
   @override
-  String get flexitrackPairingKey => 'ปุ่มเลื่อน';
+  String get flexitrackPairingKey => 'ปุ่มหมุน';
 
   @override
   String get flexitrackCancel => 'ยกเลิก';
