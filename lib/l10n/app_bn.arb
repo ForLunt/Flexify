@@ -2005,10 +2005,10 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "FATLXTSCRND একযোগে জোড়া জোড়া তৈরি করা হবে",
+  "flexitrack": "ফ্লেক্সিট্র্যাক",
+  "flexitrackPairingTitle": "ফ্লেক্সিট্র্যাক একযোগে জোড়া জোড়া তৈরি করা হবে",
   "flexitrackPairingTileTitle": "তোমার কোচের সাথে জুটি",
-  "flexitrackPairingTileSubtitle": "এই অ্যাপলিকেশনটির সাথে FFLACRND সার্ভারে সংযুক্ত করুন",
+  "flexitrackPairingTileSubtitle": "এই অ্যাপলিকেশনটির সাথে ফ্লেক্সিট্র্যাক সার্ভারে সংযুক্ত করুন",
   "flexitrackServerUrl": "সার্ভারের URL",
   "flexitrackName": "নাম",
   "flexitrackPairingKey": "জুটি কি",

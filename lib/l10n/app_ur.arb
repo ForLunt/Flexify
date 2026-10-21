@@ -2005,10 +2005,10 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
+  "flexitrack": "فلیکس ٹریک",
   "flexitrackPairingTitle": "▪ جوڑوں کا درد",
   "flexitrackPairingTileTitle": "آپ کی ٹرین کے ساتھ پیر",
-  "flexitrackPairingTileSubtitle": "اس ایپ کو ٭FLXTRRKBRSTRS سرور کو بند کریں",
+  "flexitrackPairingTileSubtitle": "اس ایپ کو فلیکس ٹریک سرور کو بند کریں",
   "flexitrackServerUrl": "سرور %d",
   "flexitrackName": "نام",
   "flexitrackPairingKey": "کُنجی",

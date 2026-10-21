@@ -2005,16 +2005,16 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "⁠FLXTRCKBRNDing",
+  "flexitrack": "فليكسيتراك",
+  "flexitrackPairingTitle": "⁠فليكسيتراك",
   "flexitrackPairingTileTitle": "طير مع مدربك",
-  "flexitrackPairingTileSubtitle": "صل هذا التطبيق إلى خادم XFLXTRCKBRNDr",
-  "flexitrackServerUrl": "Server URL",
+  "flexitrackPairingTileSubtitle": "صل هذا التطبيق إلى خادم فليكسيتراك",
+  "flexitrackServerUrl": "عنوان الخادم",
   "flexitrackName": "الاسم",
   "flexitrackPairingKey": "مفتاح الطلاء",
   "flexitrackCancel": "إلغاء",
-  "flexitrackPair": "Pair",
-  "flexitrackHttpsRequired": "The server URL must start with https://",
+  "flexitrackPair": "زوج",
+  "flexitrackHttpsRequired": "يجب أن يبدأ عنوان URL الخاص بالخادم بـ https://",
   "flexitrackPairingSuccess": "النجاح",
   "flexitrackPairingFailed": "فشل الرنين:{error}"
 }

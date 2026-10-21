@@ -2014,10 +2014,10 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "^FLXTRCKBRND Поєднання",
+  "flexitrack": "Флекситрек",
+  "flexitrackPairingTitle": "Флекситрек Поєднання",
   "flexitrackPairingTileTitle": "Похід з тренером",
-  "flexitrackPairingTileSubtitle": "Підключіть цей додаток до сервера FLXTRCKBRND",
+  "flexitrackPairingTileSubtitle": "Підключіть цей додаток до сервера Флекситрек",
   "flexitrackServerUrl": "Статус на сервери",
   "flexitrackName": "Ім'я",
   "flexitrackPairingKey": "Pairing ключ",

@@ -2005,10 +2005,10 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
-  "flexitrackPairingTitle": "⁠FLXTRCBRND",
+  "flexitrack": "فلکسی‌ترک",
+  "flexitrackPairingTitle": "فلکسی‌ترک",
   "flexitrackPairingTileTitle": "پرواز با مربی خود",
-  "flexitrackPairingTileSubtitle": "این برنامه را به سرور ⁠FLXTRCBRND متصل کنید",
+  "flexitrackPairingTileSubtitle": "این برنامه را به سرور فلکسی‌ترک متصل کنید",
   "flexitrackServerUrl": "سرور URL",
   "flexitrackName": "نام",
   "flexitrackPairingKey": "حذف کلید",

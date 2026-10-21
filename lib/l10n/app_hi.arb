@@ -2005,10 +2005,10 @@
       }
     }
   },
-  "flexitrack": "Flexitrack",
+  "flexitrack": "फ्लेक्सिट्रैक",
   "flexitrackPairingTitle": "फ्लक्सट्रकब्रैंड जोड़ी",
   "flexitrackPairingTileTitle": "अपने कोच के साथ जोड़ी",
-  "flexitrackPairingTileSubtitle": "इस एप्लिकेशन को arrowFLXTRCKBRND सर्वर से कनेक्ट करें",
+  "flexitrackPairingTileSubtitle": "इस एप्लिकेशन को फ्लेक्सिट्रैक सर्वर से कनेक्ट करें",
   "flexitrackServerUrl": "सर्वर यूआरएल",
   "flexitrackName": "नाम",
   "flexitrackPairingKey": "जोड़ी कुंजी",
