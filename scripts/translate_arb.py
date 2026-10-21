@@ -7,6 +7,10 @@ import sys
 
 ARB_DIR = "lib/l10n"
 NOT_TRANSLATED = {"Flexitrack"}
+BRAND = "Flexitrack"
+# Jeton improbable : Argos ne le « traduit » pas, il le recopie tel quel.
+# Les \u2060 (word joiner invisibles) empêchent la tokenisation de le découper.
+BRAND_TOKEN = "\u2060FLXTRCKBRND\u2060"
 
 ARGOS = {
     "ar": "ar", "bn": "bn", "de": "de", "es": "es", "fa": "fa", "fr": "fr",
@@ -21,6 +25,9 @@ CURLY_APOSTROPHE = {"fr"}
 PLACEHOLDER = re.compile(r"\{([A-Za-z_][A-Za-z0-9_]*)\s*(?:,|\})")
 SIMPLE = re.compile(r"\{([A-Za-z_][A-Za-z0-9_]*)\}")
 ICU = re.compile(r"\{[A-Za-z_][A-Za-z0-9_]*\s*,\s*(plural|select|selectordinal)\b")
+BRAND_TOKEN_RE = re.compile(
+    r"\u2060\s*F\s*L\s*X\s*T\s*R\s*C\s*K\s*B\s*R\s*N\s*D\s*\u2060", re.I
+)
 
 
 def load(path):
@@ -87,20 +94,32 @@ class Argos:
         return ok
 
     def translate(self, text, code):
-        # Découpe autour des {placeholders} et ne traduit que le texte
-        parts = SIMPLE.split(text)  # indices impairs = noms de placeholders
+        # 1. Masquer la marque pour qu'Argos ne se laisse pas piéger par
+        #    le mot anglais "Flexitrack" et recopie toute la phrase.
+        masked = text.replace(BRAND, BRAND_TOKEN)
+
+        # 2. Découper autour des {placeholders} : seuls les segments de
+        #    texte sont envoyés à Argos, les placeholders ne bougent jamais.
+        parts = SIMPLE.split(masked)  # indices impairs = noms de placeholders
         out = []
         for i, part in enumerate(parts):
             if i % 2 == 1:
                 out.append("{" + part + "}")
             elif part:
-                out.append(self.translate_module.translate(part, "en", code).strip())
+                out.append(
+                    self.translate_module.translate(part, "en", code).strip()
+                )
         out = "".join(out)
+
+        # 3. Restaurer la marque (même si Argos a ajouté des espaces).
+        out = BRAND_TOKEN_RE.sub(BRAND, out)
+
         if not out:
             raise ValueError("traduction vide")
         if set(PLACEHOLDER.findall(out)) != set(PLACEHOLDER.findall(text)):
             raise ValueError("paramètres {…} altérés par la traduction")
         return out
+
 
 def main():
     check_only = "--check" in sys.argv
