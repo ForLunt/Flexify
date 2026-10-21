@@ -13,6 +13,7 @@ import 'package:flexify/settings/plan_settings.dart';
 import 'package:flexify/settings/tab_settings.dart';
 import 'package:flexify/settings/timer_settings.dart';
 import 'package:flexify/settings/workout_settings.dart';
+import 'package:flexify/settings/flexitrack_settings.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flexify/platform_page_route.dart';
 import 'package:flutter/material.dart';
@@ -291,6 +292,12 @@ class _SettingsPageState extends State<SettingsPage>
       context.l10n.dataManagement,
       context.l10n.dataManagementDescription,
       const DataSettings(),
+    ),
+    (
+      Icons.cloud_sync_outlined,
+      'Flexitrack',
+      'Appairage et synchronisation avec ton coach',
+      const FlexitrackSettings(),
     ),
   ];
 
