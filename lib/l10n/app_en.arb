@@ -2013,5 +2013,24 @@
         "type": "int"
       }
     }
+  },
+  "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Flexitrack pairing",
+  "flexitrackPairingTileTitle": "Pair with your coach",
+  "flexitrackPairingTileSubtitle": "Connect this app to the Flexitrack server",
+  "flexitrackServerUrl": "Server URL",
+  "flexitrackName": "Name",
+  "flexitrackPairingKey": "Pairing key",
+  "flexitrackCancel": "Cancel",
+  "flexitrackPair": "Pair",
+  "flexitrackHttpsRequired": "The server URL must start with https://",
+  "flexitrackPairingSuccess": "Pairing successful",
+  "flexitrackPairingFailed": "Pairing failed: {error}",
+  "@flexitrackPairingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
   }
 }

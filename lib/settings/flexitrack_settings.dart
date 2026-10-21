@@ -1,3 +1,4 @@
+import 'package:flexify/l10n/l10n.dart';
 import 'package:flexify/settings/flexitrack/pairing_service.dart';
 import 'package:flutter/material.dart';
 
@@ -31,10 +32,11 @@ class _FlexitrackSettingsState extends State<FlexitrackSettings> {
 
   Future<void> _doPairing() async {
     if (_busy) return;
+    final l10n = context.l10n;
 
     final url = _url.text.trim();
     if (!url.startsWith('https://')) {
-      _showMessage("L'URL du serveur doit commencer par https://");
+      _showMessage(l10n.flexitrackHttpsRequired);
       return;
     }
 
@@ -45,9 +47,9 @@ class _FlexitrackSettingsState extends State<FlexitrackSettings> {
         name: _name.text.trim(),
         pairingKey: _key.text.trim(),
       );
-      _showMessage('Appairage réussi');
+      _showMessage(l10n.flexitrackPairingSuccess);
     } catch (e) {
-      _showMessage("Échec de l'appairage : $e");
+      _showMessage(l10n.flexitrackPairingFailed(e.toString()));
     } finally {
       if (mounted) setState(() => _busy = false);
     }
@@ -57,7 +59,7 @@ class _FlexitrackSettingsState extends State<FlexitrackSettings> {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Appairage Flexitrack'),
+        title: Text(context.l10n.flexitrackPairingTitle),
         content: SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.min,
@@ -65,16 +67,20 @@ class _FlexitrackSettingsState extends State<FlexitrackSettings> {
               TextField(
                 controller: _url,
                 keyboardType: TextInputType.url,
-                decoration: const InputDecoration(labelText: 'URL du serveur'),
+                decoration: InputDecoration(
+                  labelText: context.l10n.flexitrackServerUrl,
+                ),
               ),
               TextField(
                 controller: _name,
-                decoration: const InputDecoration(labelText: 'Nom'),
+                decoration: InputDecoration(
+                  labelText: context.l10n.flexitrackName,
+                ),
               ),
               TextField(
                 controller: _key,
-                decoration: const InputDecoration(
-                  labelText: "Clé d'appairage",
+                decoration: InputDecoration(
+                  labelText: context.l10n.flexitrackPairingKey,
                 ),
               ),
             ],
@@ -83,11 +89,11 @@ class _FlexitrackSettingsState extends State<FlexitrackSettings> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('Annuler'),
+            child: Text(context.l10n.flexitrackCancel),
           ),
           TextButton(
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Appairer'),
+            child: Text(context.l10n.flexitrackPair),
           ),
         ],
       ),
@@ -100,13 +106,13 @@ class _FlexitrackSettingsState extends State<FlexitrackSettings> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      appBar: AppBar(title: const Text('Flexitrack')),
+      appBar: AppBar(title: Text(context.l10n.flexitrack)),
       body: ListView(
         children: [
           ListTile(
             leading: const Icon(Icons.link_rounded),
-            title: const Text('Appairage avec ton coach'),
-            subtitle: const Text('Connecte cette app au serveur Flexitrack'),
+            title: Text(context.l10n.flexitrackPairingTileTitle),
+            subtitle: Text(context.l10n.flexitrackPairingTileSubtitle),
             trailing: _busy
                 ? const SizedBox(
                     width: 20,

@@ -488,5 +488,24 @@
   "nothingMatchesPlanSearch": "Aucun résultat pour « {query} ». Vous pouvez le créer comme nouveau programme.",
   "createPlan": "Créer un programme",
   "createNamedPlan": "Créer « {name} »",
-  "setNumber": "Série {number}"
+  "setNumber": "Série {number}",
+    "flexitrack": "Flexitrack",
+  "flexitrackPairingTitle": "Appairage Flexitrack",
+  "flexitrackPairingTileTitle": "Appairage avec ton coach",
+  "flexitrackPairingTileSubtitle": "Connecte cette app au serveur Flexitrack",
+  "flexitrackServerUrl": "URL du serveur",
+  "flexitrackName": "Nom",
+  "flexitrackPairingKey": "Clé d'appairage",
+  "flexitrackCancel": "Annuler",
+  "flexitrackPair": "Appairer",
+  "flexitrackHttpsRequired": "L'URL du serveur doit commencer par https://",
+  "flexitrackPairingSuccess": "Appairage réussi",
+  "flexitrackPairingFailed": "Échec de l'appairage : {error}",
+  "@flexitrackPairingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
 }
