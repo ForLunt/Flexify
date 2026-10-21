@@ -68,6 +68,7 @@ const _alwaysEnglishEquivalentKeys = <String>{
   'languageNameMalay',
   'languageNameUkrainian',
   'stoneUnitShort',
+  'flexitrack',
 };
 
 const _localeSpecificEnglishEquivalentKeys = <String, Set<String>>{
@@ -82,6 +83,7 @@ const _localeSpecificEnglishEquivalentKeys = <String, Set<String>>{
     'nameLabel',
     'tabs',
     'themeSystem',
+    'flexitrackName',
   },
   'es': {'stoneUnit', 'cardio', 'minutesShort', 'errorLabel'},
   'fr': {
