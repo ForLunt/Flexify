@@ -2015,18 +2015,52 @@
     }
   },
   "flexitrack": "Flexitrack",
+  "@flexitrack": {
+    "description": "Title of the Flexitrack settings page"
+  },
   "flexitrackPairingTitle": "Flexitrack pairing",
+  "@flexitrackPairingTitle": {
+    "description": "Title of the dialog used to pair the app with a Flexitrack server"
+  },
   "flexitrackPairingTileTitle": "Pair with your coach",
+  "@flexitrackPairingTileTitle": {
+    "description": "Title of the settings tile that opens the pairing dialog"
+  },
   "flexitrackPairingTileSubtitle": "Connect this app to the Flexitrack server",
+  "@flexitrackPairingTileSubtitle": {
+    "description": "Subtitle of the settings tile that opens the pairing dialog"
+  },
   "flexitrackServerUrl": "Server URL",
+  "@flexitrackServerUrl": {
+    "description": "Label of the server URL field"
+  },
   "flexitrackName": "Name",
+  "@flexitrackName": {
+    "description": "Label of the subscriber name field"
+  },
   "flexitrackPairingKey": "Pairing key",
+  "@flexitrackPairingKey": {
+    "description": "Label of the pairing key field"
+  },
   "flexitrackCancel": "Cancel",
+  "@flexitrackCancel": {
+    "description": "Button that closes the pairing dialog without pairing"
+  },
   "flexitrackPair": "Pair",
+  "@flexitrackPair": {
+    "description": "Button that starts the pairing"
+  },
   "flexitrackHttpsRequired": "The server URL must start with https://",
+  "@flexitrackHttpsRequired": {
+    "description": "Error shown when the server URL does not start with https://"
+  },
   "flexitrackPairingSuccess": "Pairing successful",
+  "@flexitrackPairingSuccess": {
+    "description": "Message shown when pairing succeeds"
+  },
   "flexitrackPairingFailed": "Pairing failed: {error}",
   "@flexitrackPairingFailed": {
+    "description": "Message shown when pairing fails",
     "placeholders": {
       "error": {
         "type": "String"
