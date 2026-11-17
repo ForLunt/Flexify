@@ -181,7 +181,6 @@ const _localeSpecificEnglishEquivalentKeys = <String, Set<String>>{
   'ru': {},
   'hi': {},
   'ar': {},
-  'id': {},
   'vi': {'stoneUnit', 'examplePlanExercises','flexitrackServerUrl','flexitrackName'},
   'bn': {},
   'ur': {},
