@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_localizations/flutter_localizations.dart'
+    hide GlobalMaterialLocalizations, GlobalCupertinoLocalizations;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flexify/settings/whats_new.dart';
 import 'package:flexify/l10n/generated/app_localizations.dart';
+import 'package:material_ui/material_ui.dart';
+import 'package:cupertino_ui/cupertino_ui.dart';
 
 void main() {
   testWidgets('Donate stays above Android gesture navigation', (tester) async {
@@ -13,11 +16,11 @@ void main() {
 
     await tester.pumpWidget(
       MaterialApp(
-        localizationsDelegates: const [
+        localizationsDelegates: [
           AppLocalizations.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,  
+          GlobalWidgetsLocalizations.delegate,   
+          GlobalCupertinoLocalizations.delegate, 
         ],
         supportedLocales: AppLocalizations.supportedLocales,
         home: MediaQuery(
