@@ -100,6 +100,8 @@ jobs:
           flutter pub get
           git diff --stat || true
       # === FIN NOUVEAU ===
+      - name: Verification dynamic_color
+        run: flutter pub upgrade dynamic_color
 
       - name: Formatage
         run: dart format .
