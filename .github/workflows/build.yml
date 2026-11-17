@@ -92,6 +92,15 @@ jobs:
           cache: true
       - run: flutter pub get
 
+      # === NOUVEAU : migration vers material_ui / cupertino_ui ===
+      - name: Migration material_ui
+        run: |
+          flutter pub add material_ui cupertino_ui
+          dart fix --apply --code=migrate_design_widgets
+          flutter pub get
+          git diff --stat || true
+      # === FIN NOUVEAU ===
+
       - name: Formatage
         run: dart format .
 
